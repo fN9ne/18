@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Gotham';
+	font-display: swap;
+	src: url('Gotham-Book.woff') format('woff'), url('Gotham-Book.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'Gotham';
+	font-display: swap;
+	src: url('Gotham-Medium.woff') format('woff'), url('Gotham-Medium.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 500;
+}
