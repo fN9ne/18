@@ -32,15 +32,15 @@ $(document).ready(function() {
 	setInterval(function() {
 		sec--;
 		if (sec < 10) sec = "0" + sec;
-		if (sec == 0) {
+		if (sec == "0-1") {
 			sec = 59;
 			min--;
 			if (min < 10) min = "0" + min;
-			if (min == 0) {
+			if (min == "0-1") {
 				min = 59;
 				hour--;
 				if (hour < 10) hour = "0" + hour;
-				if (hour == 0) {
+				if (hour == "0-1") {
 					hour = 23;
 					day--;
 				}
