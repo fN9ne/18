@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	let body_height = $(window).height();
+	body.css("height", body_height);
 	/* get differense */
 	let birthday = new Date('13 March, 2022');
 	let now = new Date();
